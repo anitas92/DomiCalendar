@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  margin-bottom: 1rem;
+  width: 18rem;
+  height: 13rem;
+  padding: .5rem 1rem;
+  box-shadow: hsla(0, 0%, 0%, .5) 1rem .5rem 2rem;
+ 
+  
+}
+
+
+body {
+ background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png');
+  
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-position: center center;
+  
+  background-size: cover;
+}
+
+
+img:hover {
+ filter: grayscale(30%);
+ 
+}
+
+@media (min-width: 768px) {
+
+  img {margin-bottom: 1.6rem;
+  width: 40rem;
+  height: 30rem;
+  }
+}
